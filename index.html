@@ -1,80 +1,62 @@
+
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ODII–DOII Technológia</title>
+  <title>ODII–DOII Secure Encoding System</title>
   <style>
-    body {
-      background-color: #111;
-      color: #f4f4f4;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #ffc107;
-    }
-    img.logo {
-      width: 100%;
-      max-width: 500px;
-      display: block;
-      margin: 2rem auto;
-    }
-    .highlight {
-      background: #222;
-      padding: 1rem;
-      border-left: 5px solid #f44336;
-      margin: 2rem 0;
-    }
-    a.button {
-      display: inline-block;
-      background: #ffc107;
-      color: #000;
-      padding: 0.8rem 1.5rem;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 2rem;
-      border-radius: 5px;
-    }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 2rem; line-height: 1.6; background: #f8f9fa; color: #222; }
+    h1, h2, h3 { color: #003366; }
+    .highlight { background: #e6f0ff; padding: 1rem; border-left: 5px solid #3366cc; margin: 1rem 0; }
+    .contact { background: #f0f0f0; padding: 1rem; border-radius: 8px; margin-top: 2rem; }
+    a.button { background: #003366; color: white; padding: 0.6rem 1.2rem; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1rem; }
   </style>
 </head>
 <body>
-  <h1>ODII–DOII Manipulációbiztos Rendszer</h1>
-  <img src="logo.png" alt="ODII–DOII logó" class="logo">
+  <h1>ODII–DOII Secure Encoding System</h1>
+  <p><strong>Inventor:</strong> József Tóth<br>
+  <strong>Email:</strong> <a href="mailto:jozseftoth1900@gmail.com">jozseftoth1900@gmail.com</a><br>
+  <strong>Phone:</strong> +36 20 578 6919</p>
 
-  <h2>Mi ez?</h2>
-  <p>
-    Egy digitális karakterkódoló és -dekódoló architektúra, melyet Tóth József fejlesztett. 
-    A rendszer célja: kiküszöbölni mindenfajta manipulációt az adatbevitel során – egyszerű, hardveres logikával.
-  </p>
+  <h2>What is ODII–DOII?</h2>
+  <p>ODII–DOII is a hardware-oriented, manipulation-proof character encoding and decoding system based on deterministic logic. It transforms text into strict numeric sequences (ODII) and decodes them through a hardware-locked constant (DOII).</p>
 
   <div class="highlight">
-    <strong>Bemenet:</strong> "A   B2"<br>
-    <strong>ODII:</strong> [99, 0, 0, 0, 121, 302]<br>
-    <strong>DOII dekódolás:</strong> → "A   B2"
+    <h3>Example</h3>
+    <p>Input: <code>"A   B2"</code><br>
+    ODII: [99, 0, 0, 0, 121, 302] → Decoded: "A   B2"</p>
   </div>
 
-  <h2>Fő jellemzők</h2>
+  <h2>Core Strengths</h2>
   <ul>
-    <li>0.01 konstans, hardverbe égetve</li>
-    <li>Nem tanuló, nem adaptív – tehát nem tévedhet</li>
-    <li>Szám-alapú karakterazonosítás</li>
-    <li>Beépített hibadetektálás és védelmi logika (X–Y–J architektúra)</li>
+    <li>Non-learning, deterministic architecture</li>
+    <li>Fixed hardware constant (0.01) ensures system integrity</li>
+    <li>Immune to external manipulation or runtime interference</li>
+    <li>Zero AI hallucination risk</li>
   </ul>
 
-  <h2>Letölthető Prezentáció</h2>
-  <a href="odii-doii-presentation.pptx" class="button">Prezentáció letöltése (PPTX)</a>
+  <h2>Applications</h2>
+  <ul>
+    <li>AI Safety – input validation</li>
+    <li>Aerospace & Defense protocols</li>
+    <li>Embedded systems (FPGA/ASIC)</li>
+    <li>Digital authentication / legal archiving</li>
+  </ul>
 
-  <footer>
-    <p>© 2025 Tóth József | Email: jozseftoth1900@gmail.com | Telefon: +36 20 578 69XX</p>
-  </footer>
+  <h2>Licensing & Business</h2>
+  <ul>
+    <li><strong>Hardware IP Block:</strong> $10,000 – $50,000 / integration</li>
+    <li><strong>Full System Transfer:</strong> $100,000 – $250,000+</li>
+    <li><strong>Exclusive Sector License:</strong> Available upon request</li>
+  </ul>
+
+  <a href="ODII_DOII_prezentacio.pdf" class="button">Download PDF Presentation</a>
+
+  <div class="contact">
+    <h3>Contact</h3>
+    <p>📧 <a href="mailto:jozseftoth1900@gmail.com">jozseftoth1900@gmail.com</a><br>
+    📞 +36 20 578 6919</p>
+  </div>
 </body>
 </html>
